@@ -1,0 +1,6 @@
+Function main(){
+                Let n:Number;
+                n = Call(read,[]);
+                Call(printLn,[Call(fact,[n])])
+            }
+            

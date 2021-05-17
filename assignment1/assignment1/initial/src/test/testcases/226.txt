@@ -1,0 +1,1 @@
+Let a[3] = If a==2 Then c=2;

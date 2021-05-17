@@ -1,0 +1,8 @@
+
+        Let x;
+        Function main(){
+            x = 10;
+            a[3[2==2],5]=2;
+            Call(fact,[x]);
+        }
+        

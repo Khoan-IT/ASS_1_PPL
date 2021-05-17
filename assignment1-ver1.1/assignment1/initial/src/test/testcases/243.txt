@@ -1,0 +1,8 @@
+Function fact(){
+            Let a:Number = 10,n:String;
+            Let arr:Array = [[1,2,3],[2,[1,2,3]]],js:JSON = {name:"Khoan"};
+            For i In arr{
+                Call(printLn,[i]);
+            }
+            }
+                

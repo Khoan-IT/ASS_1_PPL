@@ -1,0 +1,27 @@
+Function partition(start,end){
+            Let size,i,j;
+            Let p;
+            size = end-start;
+            i=1;
+            j = size - 1;
+            p = start[0];
+            While(True){
+                While(start[i]<p){
+                    If(i==size - 1){
+                        Break;
+                    }
+                }
+                While(start[j]>p){
+                    If(j==0){
+                        Break;
+                    }
+                }
+                If(i>j){
+                    Break;
+                }
+                Call(swap,[start[i],start[j]]);
+            }
+            Call(swap,[start[0],start[j]]);
+            Return start[j];
+        }
+                

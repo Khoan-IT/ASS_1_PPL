@@ -1,0 +1,20 @@
+Function fact(n){
+            If (n==1){
+                Return 1;
+            }Else{
+                Return n*Call(fact,[n-1]);
+            }
+            }
+            ##
+            main
+            # tinh n!
+            #
+            ##
+            Let x:Number;
+            Constant $a:Number = 10;
+            Function main(){
+                Let n:Number;
+                n = Call(read,[]);
+                Call(printLn,[Call(fact,[n])]);
+            }
+                

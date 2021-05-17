@@ -1,0 +1,1 @@
+Let adada   =0.121, dadAA__:JSON = {name:"Khoan",age:18};

@@ -1,0 +1,10 @@
+Function test_if(){
+            Let a:Number;
+            a = Call(read,[]);
+            If(a<7){
+                Call(printLn,["Child"]);
+            }Elif(a>=7&& (a<18)){
+                Call(printLn,["Under age"]);
+            }
+        }
+                

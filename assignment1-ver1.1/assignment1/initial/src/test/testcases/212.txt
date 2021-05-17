@@ -1,0 +1,1 @@
+Let a:String = "hello world", a__2:JSON, c:Number=12.e+0;

@@ -1,0 +1,8 @@
+Function foo(a[2],b){
+            Let i=0;
+            While(a[i]>b){
+                Call(printLn,[a[i]]);
+                i=i+1;
+            }
+        }
+                

@@ -1,0 +1,7 @@
+##Set new value for name in object a##
+Function test(){
+    Let b: String = a["name"] + a["address"];
+    a["name"] = "Qianqing Palace";
+
+}
+                

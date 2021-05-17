@@ -1,0 +1,19 @@
+Function read_json(){
+            Let data:JSON = {
+                            president :  {
+                                name :  "Nguyen Duy Hieu" ,
+                                age :  "20"
+                            }
+                        };
+            Let str:String = data["President"]["name"] + data["President"]["age"];
+            For i Of data{
+                Call(print,[i]);
+            }
+            Return str;
+        }
+        Function main(){
+            Let result = Call(read_json,[]);
+            Call(printLn,[result]);
+            Return 0;
+        }
+                

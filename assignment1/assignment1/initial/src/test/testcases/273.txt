@@ -1,0 +1,15 @@
+Function bublesort(arr[100],n){
+            Let swaped:Boolean = False;
+            For i In [0,n-1]{
+                For j In [0,n-i-1]{
+                    If(arr[j]>arr[j+1]){
+                        Call(swap,[arr[j],arr[j+1]]);
+                        swaped = True;
+                    }
+                }
+                If(swaped==True){
+                    Break;
+                } Elif
+            }
+        }
+                

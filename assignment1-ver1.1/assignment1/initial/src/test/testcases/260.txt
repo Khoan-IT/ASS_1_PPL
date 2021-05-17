@@ -1,0 +1,7 @@
+Function fact(){
+            Let x=1,y=2;
+            Let a[2,1],b[1];
+            vol = (4.e3/(-3.e-1))*pi*r*r;
+            x = -Call(foo,[]) + arr[a+9-Call(foo,[3])[3,1]];
+        }
+                
